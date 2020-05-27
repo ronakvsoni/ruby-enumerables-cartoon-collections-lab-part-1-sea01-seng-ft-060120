@@ -1,7 +1,7 @@
 characters_array = ["Hoggle", "Ludo", "Sir Didymus"]
 def greet_characters(array)
   # Use `each` to enumerate over the provided array
-  characters_array.each do |array|
+  array.each do |array|
     puts "Hello #{array}!"
   #
   # Print a custom greeting for each element
