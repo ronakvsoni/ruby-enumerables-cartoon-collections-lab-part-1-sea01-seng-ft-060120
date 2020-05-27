@@ -10,7 +10,7 @@ end
 p greet_characters(characters_array)
 
 
-
+dwarves_array = ["Gimli", "Thorin", "Balin", "Gloin"]
 def list_dwarves(array)
   # Use `each_with_index` to enumerate over the provided array
   #
